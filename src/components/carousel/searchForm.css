@@ -1,0 +1,31 @@
+h2{
+    font-size: 22px;
+    font-weight: 400;
+}
+.search-form{
+    width: 300px;
+}
+
+.sub-btn{
+
+    background-color: #F75D34;
+    border: none;
+    margin-top: 10px;
+    border-radius: 18px;
+}
+
+/* .toggle-btn{
+margin: 7px;
+background-color: black;
+border: none;
+border-radius: 17px;
+}
+
+.toggle-btn1{
+    background-color: black;
+} */
+
+#tbg-radio-1{
+    background-color: black;
+    color: white;
+}
