@@ -4,8 +4,8 @@ import { newCarData, usedCarData } from './data/carsData';
 import CarCard from './components/CarList/CarCard';
 import './App.css';
 import CarCarousel from './components/carousel/CarCarousel';
-// import PopularBrands from './components/PopularBrands';
-// import CarRecommender from './components/CarRecommender';
+import PopularBrands from './components/Brands/PopularBrands';
+import CarRecommender from './components/CarRecommender/CarRecommender';
 
 const App = () => {
   return (
@@ -32,7 +32,7 @@ const App = () => {
         </div>
       </div>
       <div className="car-section">
-        <h1>Welcome</h1>
+        
         <h2>Recommended Used Cars For You</h2>
         <div className="car-list">
           {usedCarData.map(car => (
@@ -47,8 +47,8 @@ const App = () => {
           ))}
         </div>
       </div>
-      {/* <PopularBrands /> */}
-      {/* <CarRecommender/> */}
+      <PopularBrands />
+      <CarRecommender/>
     </div>
 
   );
