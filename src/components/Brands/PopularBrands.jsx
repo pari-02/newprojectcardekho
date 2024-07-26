@@ -16,6 +16,7 @@ const PopularBrands = () => {
   return (
     <div className="popular-brands">
       <h2>Popular brands</h2>
+      <h3>car users</h3>
       <div className="brand-list">
         {brands.map((brand, index) => (
           <BrandCard key={index} logo={brand.logo} name={brand.name} />
